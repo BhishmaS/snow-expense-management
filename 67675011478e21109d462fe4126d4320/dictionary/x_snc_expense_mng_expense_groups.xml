@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="acc4241d478e21109d462fe4126d434d" label="Expense Groups" max_length="40" name="x_snc_expense_mng_expense_groups" type="collection">
+        <element choice="1" label="Approval" max_length="40" name="approval" type="choice">
+            <choice/>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element display="true" label="Name" max_length="1024" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

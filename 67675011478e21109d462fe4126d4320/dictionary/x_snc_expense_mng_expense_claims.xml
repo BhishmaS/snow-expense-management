@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8256f49947ce21109d462fe4126d43d4" extends="x_snc_expense_mng_expense_groups" label="Expense Claims" max_length="40" name="x_snc_expense_mng_expense_claims" type="collection"/>
+</database>

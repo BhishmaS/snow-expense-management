@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7008701d47ce21109d462fe4126d4336" extends="x_snc_expense_mng_expense_groups" label="Advance Requests" max_length="40" name="x_snc_expense_mng_advance_requests" type="collection"/>
+</database>
