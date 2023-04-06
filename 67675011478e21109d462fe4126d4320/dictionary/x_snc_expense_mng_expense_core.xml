@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7fbfcde1478e61109d462fe4126d43cd" label="Expense Core" max_length="40" name="x_snc_expense_mng_expense_core" type="collection">
+        <element label="Amount" max_length="40" name="amount" type="integer"/>
+        <element label="Category" max_length="32" name="category" reference="x_snc_expense_mng_expense_category" type="reference"/>
+        <element label="From Date" max_length="40" name="from_date" type="glide_date_time"/>
+        <element display="true" label="Name" max_length="1024" name="name" type="string"/>
+        <element label="Note" max_length="40" name="note" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="To Date" max_length="40" name="to_date" type="glide_date_time"/>
+        <element label="Travel From" max_length="40" name="travel_from" type="string"/>
+        <element label="Travel To" max_length="40" name="travel_to" type="string"/>
+        <index name="index">
+            <element name="category"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

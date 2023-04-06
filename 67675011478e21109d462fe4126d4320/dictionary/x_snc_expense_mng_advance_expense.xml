@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f842d1a5478e61109d462fe4126d43b3" extends="x_snc_expense_mng_expense_core" label="Advance Expense" max_length="40" name="x_snc_expense_mng_advance_expense" type="collection">
+        <element label="Advance Request" max_length="32" name="advance_request" reference="x_snc_expense_mng_advance_requests" type="reference"/>
+        <index name="index">
+            <element name="advance_request"/>
+        </index>
+    </element>
+</database>

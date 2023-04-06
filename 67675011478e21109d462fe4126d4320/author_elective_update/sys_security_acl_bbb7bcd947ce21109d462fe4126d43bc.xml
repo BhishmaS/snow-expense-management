@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_expense_mng_expense_claims</description>
+        <name>x_snc_expense_mng_expense_claims</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-05 23:26:55</sys_created_on>
+        <sys_id>bbb7bcd947ce21109d462fe4126d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_expense_mng_expense_claims</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_security_acl_bbb7bcd947ce21109d462fe4126d43bc</sys_update_name>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-05 23:26:55</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_security_acl_bbb7bcd947ce21109d462fe4126d43bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_expense_mng_expense_claims</description><name>x_snc_expense_mng_expense_claims</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-05 23:26:55</sys_created_on><sys_id>bbb7bcd947ce21109d462fe4126d43bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_expense_mng_expense_claims</sys_name><sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package><sys_policy/><sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope><sys_update_name>sys_security_acl_bbb7bcd947ce21109d462fe4126d43bc</sys_update_name><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-05 23:26:55</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1049085454</payload_hash>
+        <record_name>x_snc_expense_mng_expense_claims</record_name>
+        <reverted_from/>
+        <source>95426c59478e21109d462fe4126d430e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-05 23:26:55</sys_created_on>
+        <sys_id>33b7bcd947ce21109d462fe4126d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18753bea3560000001</sys_recorded_at>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-05 23:26:55</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>77b7bcd924ce2110c2f52ad2b07c03be</update_guid>
+        <update_guid_history>77b7bcd924ce2110c2f52ad2b07c03be:-1049085454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-06 19:24:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>320d40263bf741b28f44abb95d911c84</sys_id>
+        <sys_metadata>bbb7bcd947ce21109d462fe4126d43bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_expense_mng_expense_claims</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_parent display_value="x_snc_expense_mng_expense_claims">bfb7bcd947ce21109d462fe4126d43e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_bbb7bcd947ce21109d462fe4126d43bc</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_bbb7bcd947ce21109d462fe4126d43bc">33b7bcd947ce21109d462fe4126d43bf</sys_update_version>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-06 19:24:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

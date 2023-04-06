@@ -3,18 +3,18 @@
         <category display_value="" name="x_snc_expense_mng_expense_groups">x_snc_expense_mng_expense_groups</category>
         <maximum_digits>7</maximum_digits>
         <number>1000</number>
-        <prefix>EXP</prefix>
+        <prefix>EXPG</prefix>
         <sys_class_name>sys_number</sys_class_name>
         <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
         <sys_created_on>2023-04-05 23:18:52</sys_created_on>
         <sys_id>42e5749947ce21109d462fe4126d43dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>EXP</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EXPG</sys_name>
         <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
         <sys_policy/>
         <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
         <sys_update_name>sys_number_42e5749947ce21109d462fe4126d43dc</sys_update_name>
         <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-        <sys_updated_on>2023-04-05 23:18:52</sys_updated_on>
+        <sys_updated_on>2023-04-06 19:07:42</sys_updated_on>
     </sys_number>
 </record_update>

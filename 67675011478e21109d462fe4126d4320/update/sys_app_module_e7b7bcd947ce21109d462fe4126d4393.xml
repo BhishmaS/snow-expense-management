@@ -13,7 +13,7 @@
         <mobile_title>Expense Claims</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_snc_expense_mng_expense_claims</name>
-        <order/>
+        <order>100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e7b7bcd947ce21109d462fe4126d4393</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Expense Claims</sys_name>
         <sys_overrides/>
         <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
         <sys_update_name>sys_app_module_e7b7bcd947ce21109d462fe4126d4393</sys_update_name>
         <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-        <sys_updated_on>2023-04-05 23:34:42</sys_updated_on>
+        <sys_updated_on>2023-04-06 00:07:39</sys_updated_on>
         <timeline_page/>
         <title>Expense Claims</title>
         <uncancelable>false</uncancelable>

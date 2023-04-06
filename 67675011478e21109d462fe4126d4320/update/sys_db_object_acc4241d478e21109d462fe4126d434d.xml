@@ -13,7 +13,7 @@
         <label>Expense Groups</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_snc_expense_mng_expense_groups</name>
-        <number_ref display_value="EXP">42e5749947ce21109d462fe4126d43dc</number_ref>
+        <number_ref display_value="EXPG">42e5749947ce21109d462fe4126d43dc</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
@@ -22,16 +22,16 @@
         <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
         <sys_created_on>2023-04-05 23:18:51</sys_created_on>
         <sys_id>acc4241d478e21109d462fe4126d434d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Expense Groups</sys_name>
         <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
         <sys_policy/>
         <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
         <sys_update_name>sys_db_object_acc4241d478e21109d462fe4126d434d</sys_update_name>
         <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-        <sys_updated_on>2023-04-05 23:18:52</sys_updated_on>
+        <sys_updated_on>2023-04-06 19:26:01</sys_updated_on>
         <update_access>true</update_access>
-        <user_role display_value="x_snc_expense_mng.expense_groups_user" name="x_snc_expense_mng.expense_groups_user">91e5345947ce21109d462fe4126d437b</user_role>
+        <user_role display_value="x_snc_expense_mng.expense_groups_user" name="x_snc_expense_mng.expense_groups_user">f83a0dad474e61109d462fe4126d4354</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

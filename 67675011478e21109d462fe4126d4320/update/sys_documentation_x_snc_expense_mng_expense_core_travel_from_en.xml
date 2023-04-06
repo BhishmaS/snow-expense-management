@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="travel_from" label="Travel From" language="en" table="x_snc_expense_mng_expense_core">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>travel_from</element>
+            <help/>
+            <hint/>
+            <label>Travel From</label>
+            <language>en</language>
+            <name>x_snc_expense_mng_expense_core</name>
+            <plural>Travel Froms</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-06 19:53:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Travel From</sys_name>
+            <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_expense_mng_expense_core_travel_from_en</sys_update_name>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-06 19:53:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

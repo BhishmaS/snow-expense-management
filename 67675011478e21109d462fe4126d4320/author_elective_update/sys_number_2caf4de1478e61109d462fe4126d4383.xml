@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_snc_expense_mng_expensecore">x_snc_expense_mng_expensecore</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>EXPCO</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-06 19:49:45</sys_created_on>
+        <sys_id>2caf4de1478e61109d462fe4126d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EXPCO</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_number_2caf4de1478e61109d462fe4126d4383</sys_update_name>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-06 19:49:45</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_number_2caf4de1478e61109d462fe4126d4383</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_snc_expense_mng_expensecore">x_snc_expense_mng_expensecore</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>EXPCO</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-06 19:49:45</sys_created_on><sys_id>2caf4de1478e61109d462fe4126d4383</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EXPCO</sys_name><sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package><sys_policy/><sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope><sys_update_name>sys_number_2caf4de1478e61109d462fe4126d4383</sys_update_name><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-06 19:49:45</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>2124985516</payload_hash>
+        <record_name>EXPCO</record_name>
+        <reverted_from/>
+        <source>797a3c9d47ce21109d462fe4126d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-06 19:49:46</sys_created_on>
+        <sys_id>28af4de1478e61109d462fe4126d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187581e30430000001</sys_recorded_at>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-06 19:49:46</sys_updated_on>
+        <type>Number</type>
+        <update_guid>6caf4de1cb8e61106d4e2feca837bda4</update_guid>
+        <update_guid_history>6caf4de1cb8e61106d4e2feca837bda4:2124985516</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-06 19:56:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>49103490910c4e38bcf6b6e1d0396231</sys_id>
+        <sys_metadata>2caf4de1478e61109d462fe4126d4383</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EXPCO</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_parent display_value="">80a649a9474e61109d462fe4126d434a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_number_2caf4de1478e61109d462fe4126d4383</sys_update_name>
+        <sys_update_version display_value="sys_number_2caf4de1478e61109d462fe4126d4383">28af4de1478e61109d462fe4126d43a5</sys_update_version>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-06 19:56:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

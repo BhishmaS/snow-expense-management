@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_expense_mng_advance_expense">x_snc_expense_mng_advance_expense</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ADVEXP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-06 21:04:18</sys_created_on>
+        <sys_id>e4b029a147ce61109d462fe4126d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ADVEXP</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_number_e4b029a147ce61109d462fe4126d43e0</sys_update_name>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-06 21:04:18</sys_updated_on>
+    </sys_number>
+</record_update>
