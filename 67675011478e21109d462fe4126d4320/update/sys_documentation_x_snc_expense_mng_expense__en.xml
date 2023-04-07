@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Expense" language="en" table="x_snc_expense_mng_expense">
+    <sys_documentation element="" label="Expenses" language="en" table="x_snc_expense_mng_expense">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Expense</label>
+            <label>Expenses</label>
             <language>en</language>
             <name>x_snc_expense_mng_expense</name>
             <plural>Expenses</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
             <sys_created_on>2023-04-06 20:00:07</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Expense</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Expenses</sys_name>
             <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
             <sys_policy/>
             <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
             <sys_update_name>sys_documentation_x_snc_expense_mng_expense__en</sys_update_name>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-06 20:00:07</sys_updated_on>
+            <sys_updated_on>2023-04-06 21:32:44</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

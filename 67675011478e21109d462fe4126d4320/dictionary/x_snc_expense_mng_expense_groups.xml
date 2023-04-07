@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="acc4241d478e21109d462fe4126d434d" label="Expense Groups" max_length="40" name="x_snc_expense_mng_expense_groups" type="collection">
+    <element db_object_id="acc4241d478e21109d462fe4126d434d" label="Expense Group" max_length="40" name="x_snc_expense_mng_expense_groups" type="collection">
         <element choice="1" label="Approval Status" max_length="40" name="approval_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Approved" value="2"/>
-                <element inactive_on_update="false" label="Pending Approval" value="1"/>
-                <element inactive_on_update="false" label="Rejected" value="3"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="3"/>
             </choice>
         </element>
         <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" type="reference"/>
