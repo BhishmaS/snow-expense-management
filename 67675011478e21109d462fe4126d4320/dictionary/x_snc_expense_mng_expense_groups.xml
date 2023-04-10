@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="acc4241d478e21109d462fe4126d434d" label="Expense Group" max_length="40" name="x_snc_expense_mng_expense_groups" type="collection">
-        <element choice="1" label="Approval Status" max_length="40" name="approval_status" type="choice">
+        <element choice="1" label="Approval Status" max_length="40" name="approval_status" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Pending Approval" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="Approved" sequence="2" value="2"/>
@@ -10,10 +10,10 @@
         <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" type="reference"/>
         <element label="Description" max_length="40" name="description" type="string"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
-        <element display="true" label="Name" max_length="1024" name="name" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="1024" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
-        <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element label="Requested On" max_length="40" name="requested_on" type="glide_date_time"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>

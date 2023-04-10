@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="95cc857e478e65109d462fe4126d43bc" sys_domain="global" table="x_snc_expense_mng_expense_category" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:49:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99cc857e478e65109d462fe4126d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_expense_mng_expense_category" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">95cc857e478e65109d462fe4126d43bc</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">2b78d5e6478265109d462fe4126d43d1</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:49:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:52:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b46dcd7e478e65109d462fe4126d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_expense_mng_expense_category" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">95cc857e478e65109d462fe4126d43bc</sys_ui_form>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">246dcd7e478e65109d462fe4126d43bd</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:52:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:52:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>706dcd7e478e65109d462fe4126d43c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_expense_mng_expense_category" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">95cc857e478e65109d462fe4126d43bc</sys_ui_form>
+            <sys_ui_section caption="Receipts &amp; Notes" display_value="Receipts &amp; Notes" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">bc6dcd7e478e65109d462fe4126d43bd</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:52:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_expense_mng_expense_category</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:49:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>95cc857e478e65109d462fe4126d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_expense_mng_expense_category</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+            <sys_update_name>sys_ui_form_sections_95cc857e478e65109d462fe4126d43bc</sys_update_name>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:49:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

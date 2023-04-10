@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="aa215165478e61109d462fe4126d4318" extends="x_snc_expense_mng_expense_core" label="Expense" max_length="40" name="x_snc_expense_mng_expense" type="collection">
+    <element db_object_id="aa215165478e61109d462fe4126d4318" extends="x_snc_expense_mng_expense_core" label="Expenses" max_length="40" name="x_snc_expense_mng_expense" type="collection">
         <element label="Expense Claim" max_length="32" name="expense_claim" reference="x_snc_expense_mng_expense_claims" type="reference"/>
         <index name="index">
             <element name="expense_claim"/>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Receipts &amp; Notes" section_id="bc6dcd7e478e65109d462fe4126d43bd" sys_domain="global" table="x_snc_expense_mng_expense_category" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>require_receipt</element>
+            <position>0</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:55:10</sys_created_on>
+            <sys_id>8a0e09be478e65109d462fe4126d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts &amp; Notes" display_value="Receipts &amp; Notes" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">bc6dcd7e478e65109d462fe4126d43bd</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:55:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>require_receipt_for_amount_exceeding</element>
+            <position>1</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:55:10</sys_created_on>
+            <sys_id>0e0e09be478e65109d462fe4126d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts &amp; Notes" display_value="Receipts &amp; Notes" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">bc6dcd7e478e65109d462fe4126d43bd</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:55:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:55:10</sys_created_on>
+            <sys_id>8e0e09be478e65109d462fe4126d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts &amp; Notes" display_value="Receipts &amp; Notes" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">bc6dcd7e478e65109d462fe4126d43bd</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:55:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>require_note</element>
+            <position>3</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:55:10</sys_created_on>
+            <sys_id>020e09be478e65109d462fe4126d4377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts &amp; Notes" display_value="Receipts &amp; Notes" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">bc6dcd7e478e65109d462fe4126d43bd</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:55:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>require_note_for_amount_exceeding</element>
+            <position>4</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:55:10</sys_created_on>
+            <sys_id>820e09be478e65109d462fe4126d4377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Receipts &amp; Notes" display_value="Receipts &amp; Notes" name="x_snc_expense_mng_expense_category" sys_domain="global" view="Default view">bc6dcd7e478e65109d462fe4126d43bd</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:55:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Receipts &amp; Notes</caption>
+            <header>false</header>
+            <name>x_snc_expense_mng_expense_category</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-10 16:52:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc6dcd7e478e65109d462fe4126d43bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_expense_mng_expense_category</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+            <sys_update_name>sys_ui_section_bc6dcd7e478e65109d462fe4126d43bd</sys_update_name>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-10 16:52:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

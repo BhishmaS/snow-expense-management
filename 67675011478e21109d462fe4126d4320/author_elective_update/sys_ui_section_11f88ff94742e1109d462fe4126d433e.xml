@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="11f88ff94742e1109d462fe4126d433e" sys_domain="global" table="x_snc_expense_mng_advance_expense" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount</element>
+            <position>0</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-07 23:20:03</sys_created_on>
+            <sys_id>6a59c33d4742e1109d462fe4126d43fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 23:20:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_date</element>
+            <position>1</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-07 23:20:03</sys_created_on>
+            <sys_id>ea59c33d4742e1109d462fe4126d43fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 23:20:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel_from</element>
+            <position>2</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-07 23:20:03</sys_created_on>
+            <sys_id>6e59c33d4742e1109d462fe4126d43fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 23:20:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-07 23:20:03</sys_created_on>
+            <sys_id>ee59c33d4742e1109d462fe4126d43fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 23:20:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_status</element>
+            <position>4</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-07 23:20:03</sys_created_on>
+            <sys_id>6259c33d4742e1109d462fe4126d43fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 23:20:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to_date</element>
+            <position>5</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-07 23:20:03</sys_created_on>
+            <sys_id>e259c33d4742e1109d462fe4126d43fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 23:20:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel_to</element>
+            <position>6</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-07 23:20:03</sys_created_on>
+            <sys_id>6659c33d4742e1109d462fe4126d43fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 23:20:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_snc_expense_mng_advance_expense</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-07 23:18:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11f88ff94742e1109d462fe4126d433e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_expense_mng_advance_expense</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+            <sys_update_name>sys_ui_section_11f88ff94742e1109d462fe4126d433e</sys_update_name>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 23:18:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_ui_section_11f88ff94742e1109d462fe4126d433e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="11f88ff94742e1109d462fe4126d433e" sys_domain="global" table="x_snc_expense_mng_advance_expense" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>amount</element><position>0</position><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-07 23:20:03</sys_created_on><sys_id>6a59c33d4742e1109d462fe4126d43fd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-07 23:20:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>from_date</element><position>1</position><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-07 23:20:03</sys_created_on><sys_id>ea59c33d4742e1109d462fe4126d43fd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-07 23:20:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>travel_from</element><position>2</position><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-07 23:20:03</sys_created_on><sys_id>6e59c33d4742e1109d462fe4126d43fd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-07 23:20:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-07 23:20:03</sys_created_on><sys_id>ee59c33d4742e1109d462fe4126d43fd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-07 23:20:03</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>approval_status</element><position>4</position><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-07 23:20:03</sys_created_on><sys_id>6259c33d4742e1109d462fe4126d43fe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-07 23:20:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>to_date</element><position>5</position><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-07 23:20:03</sys_created_on><sys_id>e259c33d4742e1109d462fe4126d43fe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-07 23:20:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>travel_to</element><position>6</position><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-07 23:20:03</sys_created_on><sys_id>6659c33d4742e1109d462fe4126d43fe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="Default view">11f88ff94742e1109d462fe4126d433e</sys_ui_section><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-07 23:20:03</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_snc_expense_mng_advance_expense</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-07 23:18:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>11f88ff94742e1109d462fe4126d433e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_expense_mng_advance_expense</sys_name><sys_overrides/><sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package><sys_policy/><sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope><sys_update_name>sys_ui_section_11f88ff94742e1109d462fe4126d433e</sys_update_name><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-07 23:18:19</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>491779304</payload_hash>
+        <record_name>Advance Expenses</record_name>
+        <reverted_from/>
+        <source>797a3c9d47ce21109d462fe4126d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-07 23:20:03</sys_created_on>
+        <sys_id>2659073d4742e1109d462fe4126d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1875e0510fa0000001</sys_recorded_at>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 23:20:03</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>6e59c33d8942e11022184e3984be58ff</update_guid>
+        <update_guid_history>6e59c33d8942e11022184e3984be58ff:491779304,91f88ff9e742e11041595de63eb755b8:709586373</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-07 23:33:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0575aa94524f4da484dc53ef0c3d0310</sys_id>
+        <sys_metadata>11f88ff94742e1109d462fe4126d433e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_parent display_value="Advance Expenses">f842d1a5478e61109d462fe4126d43b3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_ui_section_11f88ff94742e1109d462fe4126d433e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_11f88ff94742e1109d462fe4126d433e">2659073d4742e1109d462fe4126d4300</sys_update_version>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-07 23:33:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

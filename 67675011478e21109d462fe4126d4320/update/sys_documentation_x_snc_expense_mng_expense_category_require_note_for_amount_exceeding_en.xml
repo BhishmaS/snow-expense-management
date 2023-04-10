@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="require_note_for_amount_exceeding" label="Require Note For Amount Exceeding" language="en" table="x_snc_expense_mng_expense_category">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>require_note_for_amount_exceeding</element>
+            <help/>
+            <hint/>
+            <label>Require Note For Amount Exceeding</label>
+            <language>en</language>
+            <name>x_snc_expense_mng_expense_category</name>
+            <plural>Require Note For Amount Exceedings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-07 18:47:47</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Require Note For Amount Exceeding</sys_name>
+            <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_expense_mng_expense_category_require_note_for_amount_exceeding_en</sys_update_name>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-07 18:47:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
