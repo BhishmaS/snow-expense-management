@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Self_Service</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-11 03:00:42</sys_created_on>
+        <sys_id>c0a81b7293022510f123bfa86cba1018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self_service</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_ui_view_c0a81b7293022510f123bfa86cba1018</sys_update_name>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-11 03:00:42</sys_updated_on>
+        <title>Self_service</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_ui_view_c0a81b7293022510f123bfa86cba1018</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Self_Service</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>bhishma.sukhavasi@snc</sys_created_by><sys_created_on>2023-04-11 03:00:42</sys_created_on><sys_id>c0a81b7293022510f123bfa86cba1018</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Self_service</sys_name><sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package><sys_policy/><sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope><sys_update_name>sys_ui_view_c0a81b7293022510f123bfa86cba1018</sys_update_name><sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by><sys_updated_on>2023-04-11 03:00:42</sys_updated_on><title>Self_service</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>-1825630319</payload_hash>
+        <record_name>Self_service</record_name>
+        <reverted_from/>
+        <source>797a3c9d47ce21109d462fe4126d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-11 03:00:42</sys_created_on>
+        <sys_id>c8a81b7293022510f123bfa86cba101a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1876e422a780000001</sys_recorded_at>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-11 03:00:42</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>00a81b7277022510b0ef8304ec7ba91a</update_guid>
+        <update_guid_history>00a81b7277022510b0ef8304ec7ba91a:-1825630319</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-11 17:20:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>482554dbcc4245d4b0c62f6c3d34bf19</sys_id>
+        <sys_metadata>c0a81b7293022510f123bfa86cba1018</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self_service</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_ui_view_c0a81b7293022510f123bfa86cba1018</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_c0a81b7293022510f123bfa86cba1018">c8a81b7293022510f123bfa86cba101a</sys_update_version>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-11 17:20:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
