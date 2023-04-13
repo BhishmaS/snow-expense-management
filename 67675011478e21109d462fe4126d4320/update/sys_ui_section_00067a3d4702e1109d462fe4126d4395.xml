@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>2e30d53247ce65109d462fe4126d43e1</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>12a47a8f934a2510f123bfa86cba10d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>ae30d53247ce65109d462fe4126d43e1</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>92a47a8f934a2510f123bfa86cba10d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>2230d53247ce65109d462fe4126d43e2</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>16a47a8f934a2510f123bfa86cba10d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,111 +46,111 @@
             <element>category</element>
             <position>3</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>a230d53247ce65109d462fe4126d43e2</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>96a47a8f934a2510f123bfa86cba10d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_status</element>
+            <position>4</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>1aa47a8f934a2510f123bfa86cba10d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>2630d53247ce65109d462fe4126d43e2</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>9aa47a8f934a2510f123bfa86cba10d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>a630d53247ce65109d462fe4126d43e2</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>1ea47a8f934a2510f123bfa86cba10d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>amount</element>
-            <position>6</position>
-            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>2a30d53247ce65109d462fe4126d43e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
-            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>from_date</element>
             <position>7</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>aa30d53247ce65109d462fe4126d43e2</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>9ea47a8f934a2510f123bfa86cba10d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>to_date</element>
-            <position>8</position>
-            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>2e30d53247ce65109d462fe4126d43e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
-            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>ae30d53247ce65109d462fe4126d43e2</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>12a47a8f934a2510f123bfa86cba10d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>approval_status</element>
-            <position>10</position>
+            <element>from_date</element>
+            <position>9</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>2230d53247ce65109d462fe4126d43e3</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>92a47a8f934a2510f123bfa86cba10d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to_date</element>
+            <position>10</position>
+            <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>16a47a8f934a2510f123bfa86cba10d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
+            <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>travel_from</element>
             <position>11</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>a230d53247ce65109d462fe4126d43e3</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>96a47a8f934a2510f123bfa86cba10d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>travel_to</element>
             <position>12</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>2630d53247ce65109d462fe4126d43e3</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>1aa47a8f934a2510f123bfa86cba10d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,13 +186,13 @@
             <element>.end_split</element>
             <position>13</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>a630d53247ce65109d462fe4126d43e3</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>9aa47a8f934a2510f123bfa86cba10d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -200,13 +200,13 @@
             <element>note</element>
             <position>14</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>2a30d53247ce65109d462fe4126d43e3</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>1ea47a8f934a2510f123bfa86cba10d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -214,13 +214,13 @@
             <element>receipts</element>
             <position>15</position>
             <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-            <sys_created_on>2023-04-10 17:04:46</sys_created_on>
-            <sys_id>aa30d53247ce65109d462fe4126d43e3</sys_id>
+            <sys_created_on>2023-04-11 19:02:03</sys_created_on>
+            <sys_id>9ea47a8f934a2510f123bfa86cba10d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_expense" sys_domain="global" view="Default view">00067a3d4702e1109d462fe4126d4395</sys_ui_section>
             <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-            <sys_updated_on>2023-04-10 17:04:46</sys_updated_on>
+            <sys_updated_on>2023-04-11 19:02:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -4,7 +4,9 @@
         <application display_value="Self-Service">08771d0cc0a8016401f604303b94b999</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="x_snc_expense_mng_expense">requested_for=javascript:gs.getUserID()^EQ<item endquery="false" field="requested_for" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
@@ -24,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4ff4fdf1474ea1109d462fe4126d4365</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>My Expenses</sys_name>
         <sys_overrides/>
         <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
@@ -32,7 +34,7 @@
         <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
         <sys_update_name>sys_app_module_4ff4fdf1474ea1109d462fe4126d4365</sys_update_name>
         <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-        <sys_updated_on>2023-04-11 03:02:59</sys_updated_on>
+        <sys_updated_on>2023-04-11 18:17:08</sys_updated_on>
         <timeline_page/>
         <title>My Expenses</title>
         <uncancelable>false</uncancelable>
