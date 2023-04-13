@@ -31,44 +31,53 @@
 
     try {
         var isValidExpense = true;
+        // Validating the limints of past 30 days OR a month
         if (current.category.limit_amount_per_month || current.category.limit_instances_per_month) {
-            var currDate = new GlideDateTime();
-            var prevDate = new GlideDateTime();
-			prevDate.addDaysUTC(-30);
+            // Aggregated result storage of past expenses
+            var pastExpsCount = Number(0);
+            var pastExpsAmount = Number(0);
 
-            var expensesGR = new GlideRecord('x_snc_expense_mng_expense');
-			expensesGR.addEncodedQuery('sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()');
-			expensesGR.query();
+            // Query to get expenses of past 30 days for current 'requested_for' User
+            var pastExpsQuery = 'sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()'
+					+ '@javascript:gs.endOfLast30Days()^sys_id!=' + current.sys_id
+					+'^requested_for=' + current.requested_for;
 			
-			var expensesCount = 0;
-			var expensesAmount = 0;
-			while (expensesGR.next()) {
-				expensesAmount += expensesGR.getValue('amount');
-				expensesCount++;
-			}
-			
-            var advanceExpensesGR = new GlideAggregate('x_snc_expense_mng_advance_expense');
-			
+            // Calculating aggregates of expenses
+            var expsGR = new GlideRecord('x_snc_expense_mng_expense');
+            expsGR.addEncodedQuery(pastExpsQuery);
+            expsGR.query();
+            while (expsGR.next()) {
+                pastExpsCount++;
+                pastExpsAmount += Number(expsGR.getValue('amount'));
+            }
+
+            // Calculating aggregates of advance expenses
+            var advExpsGR = new GlideRecord('x_snc_expense_mng_advance_expense');
+            advExpsGR.addEncodedQuery(pastExpsQuery);
+            advExpsGR.query();
+            while (advExpsGR.next()) {
+                pastExpsCount++;
+                pastExpsAmount += Number(advExpsGR.getValue('amount'));
+            }
 
             if (current.category.limit_amount_per_month) {
-                // need to calculate sum of amounts in above obtained list and modify the condition
                 var amountPerMonth = current.category.allowed_amount_per_month;
-                if (current.amount > amountPerMonth) {
+                if (pastExpsAmount >= amountPerMonth) {
                     gs.addErrorMessage('Max amount allowed per month is ' + amountPerMonth);
                     isValidExpense = false;
                 }
             }
 
             if (current.category.limit_instances_per_month) {
-                // need to count all expenses in above obtained list and modify the condition
                 var instancesPerMonth = current.category.allowed_instances_per_month;
-                if (2 > instancesPerMonth) {
+                if (pastExpsCount > instancesPerMonth) {
                     gs.addErrorMessage('Max instances allowed per month are ' + instancesPerMonth);
                     isValidExpense = false;
                 }
             }
         }
 
+        // Required note rule validation
         var note_for_amount_exceeding = current.category.require_note_for_amount_exceeding;
         if (current.category.require_note &&
             current.amount > note_for_amount_exceeding &&
@@ -77,6 +86,7 @@
             isValidExpense = false;
         }
 
+        // Required receipt rule validation
         // 	// Need to fix receipts issue
         // 	var receipt_for_amount_exceeding = current.category.require_receipt_for_amount_exceeding;
         // 	if (current.category.require_receipt &&
@@ -86,12 +96,13 @@
         // 		isValidExpense = false;
         // 	}
 
+        // Aborting the action if expense is invalid
         if (!isValidExpense)
             current.setAbortAction(true);
     } catch (err) {
         gs.error("Expenses: A runtime error occurred" + err);
-		
-		gs.addErrorMessage("An error occurred while saving the expense");
+
+        gs.addErrorMessage("An error occurred while saving the expense");
         current.setAbortAction(true);
     }
 
@@ -102,15 +113,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1f29c45f934e2510f123bfa86cba10f7</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Category Rules Validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
         <sys_policy/>
         <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
         <sys_update_name>sys_script_1f29c45f934e2510f123bfa86cba10f7</sys_update_name>
-        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-        <sys_updated_on>2023-04-13 03:04:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 03:56:28</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
