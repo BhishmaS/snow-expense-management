@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7fbfcde1478e61109d462fe4126d43cd" label="Expense Core" max_length="40" name="x_snc_expense_mng_expense_core" type="collection">
-        <element label="Amount" max_length="40" name="amount" type="integer"/>
+        <element label="Amount" mandatory="true" max_length="40" name="amount" type="integer"/>
         <element choice="1" label="Approval Status" max_length="40" name="approval_status" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Pending Approval" sequence="1" value="1"/>
@@ -8,12 +8,16 @@
                 <element inactive_on_update="false" label="Rejected" sequence="3" value="3"/>
             </choice>
         </element>
+        <element label="Approved At" max_length="40" name="approved_at" type="glide_date_time"/>
+        <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" type="reference"/>
         <element label="Category" mandatory="true" max_length="32" name="category" reference="x_snc_expense_mng_expense_category" type="reference"/>
         <element label="From Date" max_length="40" name="from_date" type="glide_date_time"/>
         <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Note" max_length="1024" name="note" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Receipts" max_length="4000" name="receipts" read_only="true" reference="sys_attachment" type="glide_list"/>
+        <element label="Rejected At" max_length="40" name="rejected_at" type="glide_date_time"/>
+        <element label="Rejected By" max_length="32" name="rejected_by" reference="sys_user" type="reference"/>
+        <element label="Reject Notes" max_length="4000" name="reject_notes" type="string"/>
         <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
         <element label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
@@ -21,21 +25,27 @@
         <element label="Travel From" max_length="32" name="travel_from" reference="cmn_location" type="reference"/>
         <element label="Travel To" max_length="32" name="travel_to" reference="cmn_location" type="reference"/>
         <index name="index">
-            <element name="category"/>
+            <element name="approved_by"/>
         </index>
         <index name="index2">
-            <element name="requested_by"/>
+            <element name="category"/>
         </index>
         <index name="index3">
-            <element name="requested_for"/>
+            <element name="rejected_by"/>
         </index>
         <index name="index4">
-            <element name="sys_class_name"/>
+            <element name="requested_by"/>
         </index>
         <index name="index5">
-            <element name="travel_from"/>
+            <element name="requested_for"/>
         </index>
         <index name="index6">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index7">
+            <element name="travel_from"/>
+        </index>
+        <index name="index8">
             <element name="travel_to"/>
         </index>
     </element>

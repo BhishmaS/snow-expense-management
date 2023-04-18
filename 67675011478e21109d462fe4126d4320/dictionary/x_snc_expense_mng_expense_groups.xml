@@ -7,11 +7,15 @@
                 <element inactive_on_update="false" label="Rejected" sequence="3" value="3"/>
             </choice>
         </element>
+        <element label="Approved At" max_length="40" name="approved_at" type="glide_date_time"/>
         <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" type="reference"/>
         <element label="Description" max_length="40" name="description" type="string"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
         <element display="true" label="Name" mandatory="true" max_length="1024" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Rejected At" max_length="40" name="rejected_at" type="glide_date_time"/>
+        <element label="Rejected By" max_length="32" name="rejected_by" reference="sys_user" type="reference"/>
+        <element label="Reject Notes" max_length="4000" name="reject_notes" type="string"/>
         <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
         <element label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element label="Requested On" max_length="40" name="requested_on" type="glide_date_time"/>
@@ -21,12 +25,15 @@
             <element name="approved_by"/>
         </index>
         <index name="index2">
-            <element name="requested_by"/>
+            <element name="rejected_by"/>
         </index>
         <index name="index3">
-            <element name="requested_for"/>
+            <element name="requested_by"/>
         </index>
         <index name="index4">
+            <element name="requested_for"/>
+        </index>
+        <index name="index5">
             <element name="sys_class_name"/>
         </index>
     </element>
