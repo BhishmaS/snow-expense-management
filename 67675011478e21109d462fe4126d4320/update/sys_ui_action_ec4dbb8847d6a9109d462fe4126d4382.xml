@@ -2,7 +2,7 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
@@ -28,9 +28,29 @@
         <list_style/>
         <messages/>
         <name>Claim Expenses</name>
-        <onclick/>
+        <onclick>claimExpenses()</onclick>
         <order>200</order>
-        <script/>
+        <script><![CDATA[function claimExpenses() {
+	var expenseIds = g_list.getChecked();
+	if (expenseIds !== null && expenseIds !== undefined && expenseIds !== '') {
+		var url = new GlideURL('x_snc_expense_mng_expense_claims.do');
+
+		// Add only the client options to prevent another AJAX call
+		url.addParam('sysparm_expenseids', expenseIds);
+
+		var window = getTopWindow();
+// 		window.location = url.getURL();
+		
+		var newWindow = window.open(url.getURL());
+		newWindow.focus();
+	}
+}
+
+// while (current.hasNext()) {
+// 	var expense = current.next();
+// 	console.log(expense.sys_id);
+// }
+]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -41,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ec4dbb8847d6a9109d462fe4126d4382</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Claim Expenses</sys_name>
         <sys_overrides/>
         <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
@@ -49,9 +69,9 @@
         <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
         <sys_update_name>sys_ui_action_ec4dbb8847d6a9109d462fe4126d4382</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-18 01:19:42</sys_updated_on>
+        <sys_updated_on>2023-04-19 17:51:12</sys_updated_on>
         <table>x_snc_expense_mng_expense</table>
         <ui11_compatible>true</ui11_compatible>
-        <ui16_compatible>false</ui16_compatible>
+        <ui16_compatible>true</ui16_compatible>
     </sys_ui_action>
 </record_update>

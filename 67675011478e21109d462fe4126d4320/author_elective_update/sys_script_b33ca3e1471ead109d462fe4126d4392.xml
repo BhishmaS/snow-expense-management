@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_expense_mng_expense_core</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Exp Update Rules Validation</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    try {
+        var isValidExpense = true;
+        // Validating the limints of past 30 days OR a month
+        if (current.category.limit_amount_per_month) {
+            // Aggregated result storage of past expenses
+            var pastExpsCount = Number(0);
+            var pastExpsAmount = Number(0);
+
+            // Query to get expenses of past 30 days for current 'requested_for' User
+            var pastExpsQuery = 'sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()' +
+                '@javascript:gs.endOfLast30Days()^sys_id!=' + current.sys_id +
+                '^requested_for=' + current.requested_for;
+
+            // Calculating aggregates of expenses
+            var expsGR = new GlideRecord('x_snc_expense_mng_expense');
+            expsGR.addEncodedQuery(pastExpsQuery);
+            expsGR.query();
+            while (expsGR.next()) {
+                pastExpsCount++;
+                pastExpsAmount += Number(expsGR.getValue('amount'));
+            }
+
+            // Calculating aggregates of advance expenses
+            var advExpsGR = new GlideRecord('x_snc_expense_mng_advance_expense');
+            advExpsGR.addEncodedQuery(pastExpsQuery);
+            advExpsGR.query();
+            while (advExpsGR.next()) {
+                pastExpsCount++;
+                pastExpsAmount += Number(advExpsGR.getValue('amount'));
+            }
+
+            if (current.category.limit_amount_per_month) {
+                var amountPerMonth = current.category.allowed_amount_per_month;
+                if (pastExpsAmount >= amountPerMonth) {
+                    gs.addErrorMessage('Max amount allowed per month is ' + amountPerMonth);
+                    isValidExpense = false;
+                }
+            }
+        }
+
+        // Required note rule validation
+        var note_for_amount_exceeding = current.category.require_note_for_amount_exceeding;
+        if (current.category.require_note &&
+            current.amount > note_for_amount_exceeding &&
+            current.note.nil()) {
+            gs.addErrorMessage('Note is required for amount exceeding ' + note_for_amount_exceeding);
+            isValidExpense = false;
+        }
+		
+		// Required receipt rule validation
+        var receipt_for_amount_exceeding = current.category.require_receipt_for_amount_exceeding;
+        if (current.sys_class_name == 'x_snc_expense_mng_expense' &&
+			current.category.require_receipt &&
+            current.amount > receipt_for_amount_exceeding) {
+			
+			var attachment = new GlideSysAttachment();
+			var agr = attachment.getAttachments('x_snc_expense_mng_expense', current.sys_id);
+			if (!agr.hasNext()) {
+				gs.addErrorMessage('Receipt is required for amount exceeding ' + receipt_for_amount_exceeding);
+				isValidExpense = false;
+			}
+        }
+
+        // Aborting the action if expense is invalid
+        if (!isValidExpense)
+            current.setAbortAction(true);
+    } catch (err) {
+        gs.error("Expenses: A runtime error occurred" + err);
+
+        gs.addErrorMessage("An error occurred while saving the expense");
+        current.setAbortAction(true);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 17:30:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b33ca3e1471ead109d462fe4126d4392</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Exp Update Rules Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_script_b33ca3e1471ead109d462fe4126d4392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 17:33:51</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=b33ca3e1471ead109d462fe4126d4392"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_script_b33ca3e1471ead109d462fe4126d4392</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_snc_expense_mng_expense_core&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Exp Update Rules Validation&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    try {
+        var isValidExpense = true;
+        // Validating the limints of past 30 days OR a month
+        if (current.category.limit_amount_per_month) {
+            // Aggregated result storage of past expenses
+            var pastExpsCount = Number(0);
+            var pastExpsAmount = Number(0);
+
+            // Query to get expenses of past 30 days for current 'requested_for' User
+            var pastExpsQuery = 'sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()' +
+                '@javascript:gs.endOfLast30Days()^sys_id!=' + current.sys_id +
+                '^requested_for=' + current.requested_for;
+
+            // Calculating aggregates of expenses
+            var expsGR = new GlideRecord('x_snc_expense_mng_expense');
+            expsGR.addEncodedQuery(pastExpsQuery);
+            expsGR.query();
+            while (expsGR.next()) {
+                pastExpsCount++;
+                pastExpsAmount += Number(expsGR.getValue('amount'));
+            }
+
+            // Calculating aggregates of advance expenses
+            var advExpsGR = new GlideRecord('x_snc_expense_mng_advance_expense');
+            advExpsGR.addEncodedQuery(pastExpsQuery);
+            advExpsGR.query();
+            while (advExpsGR.next()) {
+                pastExpsCount++;
+                pastExpsAmount += Number(advExpsGR.getValue('amount'));
+            }
+
+            if (current.category.limit_amount_per_month) {
+                var amountPerMonth = current.category.allowed_amount_per_month;
+                if (pastExpsAmount &gt;= amountPerMonth) {
+                    gs.addErrorMessage('Max amount allowed per month is ' + amountPerMonth);
+                    isValidExpense = false;
+                }
+            }
+        }
+
+        // Required note rule validation
+        var note_for_amount_exceeding = current.category.require_note_for_amount_exceeding;
+        if (current.category.require_note &amp;&amp;
+            current.amount &gt; note_for_amount_exceeding &amp;&amp;
+            current.note.nil()) {
+            gs.addErrorMessage('Note is required for amount exceeding ' + note_for_amount_exceeding);
+            isValidExpense = false;
+        }
+		
+		// Required receipt rule validation
+        var receipt_for_amount_exceeding = current.category.require_receipt_for_amount_exceeding;
+        if (current.sys_class_name == 'x_snc_expense_mng_expense' &amp;&amp;
+			current.category.require_receipt &amp;&amp;
+            current.amount &gt; receipt_for_amount_exceeding) {
+			
+			var attachment = new GlideSysAttachment();
+			var agr = attachment.getAttachments('x_snc_expense_mng_expense', current.sys_id);
+			if (!agr.hasNext()) {
+				gs.addErrorMessage('Receipt is required for amount exceeding ' + receipt_for_amount_exceeding);
+				isValidExpense = false;
+			}
+        }
+
+        // Aborting the action if expense is invalid
+        if (!isValidExpense)
+            current.setAbortAction(true);
+    } catch (err) {
+        gs.error("Expenses: A runtime error occurred" + err);
+
+        gs.addErrorMessage("An error occurred while saving the expense");
+        current.setAbortAction(true);
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-19 17:30:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b33ca3e1471ead109d462fe4126d4392&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Exp Update Rules Validation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Expense Management" source="x_snc_expense_mng"&gt;67675011478e21109d462fe4126d4320&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Expense Management"&gt;67675011478e21109d462fe4126d4320&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_b33ca3e1471ead109d462fe4126d4392&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-19 17:33:51&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b33ca3e1471ead109d462fe4126d4392"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1080104187</payload_hash>
+        <record_name>Exp Update Rules Validation</record_name>
+        <reverted_from/>
+        <source>20ae2d2f478629109d462fe4126d4385</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 17:33:51</sys_created_on>
+        <sys_id>ac3d6fe1471ead109d462fe4126d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1879a946f680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 17:33:51</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>243d6fe1d01ead10cf6aa00ed9cc72bf</update_guid>
+        <update_guid_history>243d6fe1d01ead10cf6aa00ed9cc72bf:1080104187,797c27e1f81ead104b216db5734c31c8:-984552207,ee6ca3e1901ead10304114b64c60d487:-1148744563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 17:38:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0b6028ffe5e44eae982429c43427a404</sys_id>
+        <sys_metadata>b33ca3e1471ead109d462fe4126d4392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exp Update Rules Validation</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_parent display_value="Expense Core">7fbfcde1478e61109d462fe4126d43cd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_script_b33ca3e1471ead109d462fe4126d4392</sys_update_name>
+        <sys_update_version display_value="sys_script_b33ca3e1471ead109d462fe4126d4392">ac3d6fe1471ead109d462fe4126d43bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 17:38:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="description" table="x_snc_expense_mng_expense_groups">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="expenseids" table="x_snc_expense_mng_expense_groups">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Description</column_label>
+        <column_label>ExpenseIds</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>description</element>
+        <element>expenseids</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -50,15 +50,15 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
-        <sys_created_on>2023-04-05 23:18:51</sys_created_on>
-        <sys_name>Description</sys_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 20:17:31</sys_created_on>
+        <sys_name>ExpenseIds</sys_name>
         <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
         <sys_policy/>
         <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_expense_mng_expense_groups_description</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_expense_mng_expense_groups_expenseids</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-19 00:09:10</sys_updated_on>
+        <sys_updated_on>2023-04-18 20:17:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

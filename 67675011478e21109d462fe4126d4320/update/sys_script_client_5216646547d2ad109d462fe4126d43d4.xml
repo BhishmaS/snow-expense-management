@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Claim Expense Ids</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var window = getTopWindow();
+    var urlParams = new URLSearchParams(window.location.search);
+    var expenseIds = urlParams.get('sysparm_expenseids');
+
+    if (expenseIds !== null && expenseIds !== undefined && expenseIds !== '')
+        g_form.setValue('expenseids', expenseIds);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 03:05:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5216646547d2ad109d462fe4126d43d4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Set Claim Expense Ids</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_script_client_5216646547d2ad109d462fe4126d43d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 17:14:29</sys_updated_on>
+        <table>x_snc_expense_mng_expense_claims</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

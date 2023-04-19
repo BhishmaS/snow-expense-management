@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Activities" section_id="b34a1edd471e6d109d462fe4126d43ef" sys_domain="global" table="x_snc_expense_mng_expense" version="3" view="self_service_expenses">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-18 16:53:15</sys_created_on>
+            <sys_id>405a5edd471e6d109d462fe4126d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_snc_expense_mng_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">b34a1edd471e6d109d462fe4126d43ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-18 16:53:15</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-18 16:53:15</sys_created_on>
+            <sys_id>c45a5edd471e6d109d462fe4126d433c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_snc_expense_mng_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">b34a1edd471e6d109d462fe4126d43ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-18 16:53:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Activities</caption>
+            <header>false</header>
+            <name>x_snc_expense_mng_expense</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-18 16:53:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b34a1edd471e6d109d462fe4126d43ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_expense_mng_expense</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+            <sys_update_name>sys_ui_section_b34a1edd471e6d109d462fe4126d43ef</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-18 16:53:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service Expenses" name="self_service_expenses">0162133e93cee110f123bfa86cba109f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_ui_section_b34a1edd471e6d109d462fe4126d43ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Activities" section_id="b34a1edd471e6d109d462fe4126d43ef" sys_domain="global" table="x_snc_expense_mng_expense" version="3" view="self_service_expenses"><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-18 16:53:15</sys_created_on><sys_id>405a5edd471e6d109d462fe4126d4332</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="Activities" display_value="Activities" name="x_snc_expense_mng_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">b34a1edd471e6d109d462fe4126d43ef</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-18 16:53:15</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-18 16:53:15</sys_created_on><sys_id>c45a5edd471e6d109d462fe4126d433c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Activities" display_value="Activities" name="x_snc_expense_mng_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">b34a1edd471e6d109d462fe4126d43ef</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-18 16:53:15</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Activities</caption><header>false</header><name>x_snc_expense_mng_expense</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-18 16:53:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b34a1edd471e6d109d462fe4126d43ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_expense_mng_expense</sys_name><sys_overrides/><sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package><sys_policy/><sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope><sys_update_name>sys_ui_section_b34a1edd471e6d109d462fe4126d43ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-18 16:53:14</sys_updated_on><sys_user/><title>false</title><view display_value="Self Service Expenses" name="self_service_expenses">0162133e93cee110f123bfa86cba109f</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>2056318848</payload_hash>
+        <record_name>Expenses</record_name>
+        <reverted_from/>
+        <source>20ae2d2f478629109d462fe4126d4385</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 16:53:15</sys_created_on>
+        <sys_id>085a5edd471e6d109d462fe4126d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1879548e6e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 16:53:15</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>8c5a5edd9a1e6d1092f887c582b8db3d</update_guid>
+        <update_guid_history>8c5a5edd9a1e6d1092f887c582b8db3d:2056318848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 19:21:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1daf762d7eee470e98ed69c84fb3b3a1</sys_id>
+        <sys_metadata>b34a1edd471e6d109d462fe4126d43ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activities</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_parent display_value="Expenses">aa215165478e61109d462fe4126d4318</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b34a1edd471e6d109d462fe4126d43ef</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b34a1edd471e6d109d462fe4126d43ef">085a5edd471e6d109d462fe4126d433e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 19:21:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

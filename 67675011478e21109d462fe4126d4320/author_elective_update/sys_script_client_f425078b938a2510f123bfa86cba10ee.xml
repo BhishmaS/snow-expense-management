@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Expense Category Rules Validation</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    // Applying all rules based on the selected category
+    g_form.clearMessages();
+    g_form.getReference('category', onCategoryChanged);
+}
+
+function onCategoryChanged(categoryGR) {
+	// Expense Type based form settings
+	if (categoryGR.get('type')) {
+		var type = categoryGR.next();
+		if (type == '2') {
+			// 'Travel type' do something
+		}
+		
+		if (type == '3') {
+			// 'Accommodation type' do something
+		}
+	}
+	
+	// 'limit_amount_per_month' validation
+    if (categoryGR.get('limit_amount_per_month') && categoryGR.next() && categoryGR.get('allowed_amount_per_month')) {
+        var maxAmountPerMonth = categoryGR.next();
+        var amount = g_form.getValue('amount');
+        if (amount > maxAmountPerMonth)
+            g_form.showErrorBox('amount', 'Max amount allowed per month is ' + maxAmountPerMonth);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-11 20:26:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f425078b938a2510f123bfa86cba10ee</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Expense Category Rules Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_script_client_f425078b938a2510f123bfa86cba10ee</sys_update_name>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-11 22:50:17</sys_updated_on>
+        <table>x_snc_expense_mng_expense_core</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_script_client_f425078b938a2510f123bfa86cba10ee</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;true&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Expense Category Rules Validation&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    // Applying all rules based on the selected category
+    g_form.clearMessages();
+    g_form.getReference('category', onCategoryChanged);
+}
+
+function onCategoryChanged(categoryGR) {
+	// Expense Type based form settings
+	if (categoryGR.get('type')) {
+		var type = categoryGR.next();
+		if (type == '2') {
+			// 'Travel type' do something
+		}
+		
+		if (type == '3') {
+			// 'Accommodation type' do something
+		}
+	}
+	
+	// 'limit_amount_per_month' validation
+    if (categoryGR.get('limit_amount_per_month') &amp;&amp; categoryGR.next() &amp;&amp; categoryGR.get('allowed_amount_per_month')) {
+        var maxAmountPerMonth = categoryGR.next();
+        var amount = g_form.getValue('amount');
+        if (amount &gt; maxAmountPerMonth)
+            g_form.showErrorBox('amount', 'Max amount allowed per month is ' + maxAmountPerMonth);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;bhishma.sukhavasi@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-11 20:26:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f425078b938a2510f123bfa86cba10ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Expense Category Rules Validation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Expense Management" source="x_snc_expense_mng"&gt;67675011478e21109d462fe4126d4320&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Expense Management"&gt;67675011478e21109d462fe4126d4320&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f425078b938a2510f123bfa86cba10ee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;bhishma.sukhavasi@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-11 22:50:17&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_expense_mng_expense_core&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>449731295</payload_hash>
+        <record_name>Expense Category Rules Validation</record_name>
+        <reverted_from/>
+        <source>797a3c9d47ce21109d462fe4126d4338</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
+        <sys_created_on>2023-04-11 22:50:17</sys_created_on>
+        <sys_id>25e8eb87930e2510f123bfa86cba10c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187728343060000001</sys_recorded_at>
+        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
+        <sys_updated_on>2023-04-11 22:50:17</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2de8eb87df0e251094721787d2b32cc5</update_guid>
+        <update_guid_history>2de8eb87df0e251094721787d2b32cc5:449731295,d3b8eb877c0e2510eeabf875dcefdaaf:-1120977517,59a8eb87890e2510437aeb1d1fd37000:1194854276,39019747e5ca25102dbf0d3a27d966ba:-614453327,bc29874f4a8a251012c17121e6baa138:-36082752,d5784b0f1f8a251020e7cae705773486:2036977478,0208c3cbda8a25100103ed40abc32ab3:1981639353</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 03:07:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3ef63e8ddc764fd9bb83b7596856c921</sys_id>
+        <sys_metadata>f425078b938a2510f123bfa86cba10ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense Category Rules Validation</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_parent display_value="Expense Core">7fbfcde1478e61109d462fe4126d43cd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_script_client_f425078b938a2510f123bfa86cba10ee</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f425078b938a2510f123bfa86cba10ee">25e8eb87930e2510f123bfa86cba10c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 03:07:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
