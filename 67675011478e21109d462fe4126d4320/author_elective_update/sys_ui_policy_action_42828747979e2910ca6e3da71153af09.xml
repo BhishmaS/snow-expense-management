@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>approval_status</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 06:18:29</sys_created_on>
+        <sys_id>42828747979e2910ca6e3da71153af09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approval_status</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_ui_policy_action_42828747979e2910ca6e3da71153af09</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 06:18:29</sys_updated_on>
+        <table>x_snc_expense_mng_expense_core</table>
+        <ui_policy display_value="Approved Expenses Read-Only">dbf10347979e2910ca6e3da71153af0d</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_ui_policy_action_42828747979e2910ca6e3da71153af09</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>approval_status</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-24 06:18:29</sys_created_on><sys_id>42828747979e2910ca6e3da71153af09</sys_id><sys_mod_count>0</sys_mod_count><sys_name>approval_status</sys_name><sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package><sys_policy/><sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope><sys_update_name>sys_ui_policy_action_42828747979e2910ca6e3da71153af09</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-24 06:18:29</sys_updated_on><table>x_snc_expense_mng_expense_core</table><ui_policy display_value="Approved Expenses Read-Only">dbf10347979e2910ca6e3da71153af0d</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-2038218579</payload_hash>
+        <record_name>approval_status</record_name>
+        <reverted_from/>
+        <source>20ae2d2f478629109d462fe4126d4385</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 06:18:29</sys_created_on>
+        <sys_id>c492c747979e2910ca6e3da71153afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b1e9e9420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 06:18:29</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>0c92c7478e9e2910dbe45789c17996ce</update_guid>
+        <update_guid_history>0c92c7478e9e2910dbe45789c17996ce:-2038218579</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 17:38:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>4f2808383d3c48aa9f0e00006aa2da64</sys_id>
+        <sys_metadata>42828747979e2910ca6e3da71153af09</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approval_status</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_42828747979e2910ca6e3da71153af09</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_42828747979e2910ca6e3da71153af09">c492c747979e2910ca6e3da71153afcf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 17:38:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

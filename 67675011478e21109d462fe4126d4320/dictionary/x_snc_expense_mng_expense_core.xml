@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7fbfcde1478e61109d462fe4126d43cd" label="Expense Core" max_length="40" name="x_snc_expense_mng_expense_core" type="collection">
+        <element label="Accommodation Place" max_length="32" name="accommodation_place" reference="cmn_location" type="reference"/>
         <element label="Amount" mandatory="true" max_length="40" name="amount" type="integer"/>
         <element choice="1" label="Approval Status" max_length="40" name="approval_status" type="integer">
             <choice>
@@ -25,27 +26,30 @@
         <element label="Travel From" max_length="32" name="travel_from" reference="cmn_location" type="reference"/>
         <element label="Travel To" max_length="32" name="travel_to" reference="cmn_location" type="reference"/>
         <index name="index">
-            <element name="approved_by"/>
+            <element name="accommodation_place"/>
         </index>
         <index name="index2">
-            <element name="category"/>
+            <element name="approved_by"/>
         </index>
         <index name="index3">
-            <element name="rejected_by"/>
+            <element name="category"/>
         </index>
         <index name="index4">
-            <element name="requested_by"/>
+            <element name="rejected_by"/>
         </index>
         <index name="index5">
-            <element name="requested_for"/>
+            <element name="requested_by"/>
         </index>
         <index name="index6">
-            <element name="sys_class_name"/>
+            <element name="requested_for"/>
         </index>
         <index name="index7">
-            <element name="travel_from"/>
+            <element name="sys_class_name"/>
         </index>
         <index name="index8">
+            <element name="travel_from"/>
+        </index>
+        <index name="index9">
             <element name="travel_to"/>
         </index>
     </element>

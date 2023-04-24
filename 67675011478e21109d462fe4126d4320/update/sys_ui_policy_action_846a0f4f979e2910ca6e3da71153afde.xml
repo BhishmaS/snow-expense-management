@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>start_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 06:52:46</sys_created_on>
+        <sys_id>846a0f4f979e2910ca6e3da71153afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>start_date</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_ui_policy_action_846a0f4f979e2910ca6e3da71153afde</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 06:52:46</sys_updated_on>
+        <table>x_snc_expense_mng_expense_groups</table>
+        <ui_policy display_value="Exp Grp: Read-Only">e5f9474f979e2910ca6e3da71153af64</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

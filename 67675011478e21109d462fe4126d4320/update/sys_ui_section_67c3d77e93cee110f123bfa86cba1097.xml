@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>bd667f514752ad109d462fe4126d43fe</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>25ddb89b97166910ca6e3da71153afd0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>31667f514752ad109d462fe4126d43ff</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>a5ddb89b97166910ca6e3da71153afd0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>b1667f514752ad109d462fe4126d43ff</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>29ddb89b97166910ca6e3da71153afd0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>category</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>35667f514752ad109d462fe4126d43ff</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>a9ddb89b97166910ca6e3da71153afd0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>approval_status</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>b5667f514752ad109d462fe4126d43ff</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>2dddb89b97166910ca6e3da71153afd0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.end_split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>39667f514752ad109d462fe4126d43ff</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>adddb89b97166910ca6e3da71153afd0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.begin_split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>b9667f514752ad109d462fe4126d43ff</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>21ddb89b97166910ca6e3da71153afd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>is_self_booking</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>3d667f514752ad109d462fe4126d43ff</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>a1ddb89b97166910ca6e3da71153afd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>amount</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>bd667f514752ad109d462fe4126d43ff</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>25ddb89b97166910ca6e3da71153afd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>from_date</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>3166bf514752ad109d462fe4126d4300</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>a5ddb89b97166910ca6e3da71153afd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,97 +144,111 @@
             <element>to_date</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>b166bf514752ad109d462fe4126d4300</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>29ddb89b97166910ca6e3da71153afd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>travel_from</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>3566bf514752ad109d462fe4126d4300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>travel_to</element>
-            <position>12</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>b566bf514752ad109d462fe4126d4300</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>13</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>3966bf514752ad109d462fe4126d4300</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>a9ddb89b97166910ca6e3da71153afd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>14</position>
+            <element>travel_from</element>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>b966bf514752ad109d462fe4126d4300</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>2dddb89b97166910ca6e3da71153afd1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel_to</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>adddb89b97166910ca6e3da71153afd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accommodation_place</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>21ddb89b97166910ca6e3da71153afd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>a1ddb89b97166910ca6e3da71153afd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>note</element>
-            <position>15</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>3d66bf514752ad109d462fe4126d4300</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>25ddb89b97166910ca6e3da71153afd2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>16</position>
+            <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-18 23:35:36</sys_created_on>
-            <sys_id>bd66bf514752ad109d462fe4126d4300</sys_id>
+            <sys_created_on>2023-04-24 15:17:05</sys_created_on>
+            <sys_id>a5ddb89b97166910ca6e3da71153afd2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_expense_mng_advance_expense" sys_domain="global" view="0162133e93cee110f123bfa86cba109f">67c3d77e93cee110f123bfa86cba1097</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-18 23:35:36</sys_updated_on>
+            <sys_updated_on>2023-04-24 15:17:05</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

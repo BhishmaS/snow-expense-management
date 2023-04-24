@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
+        <collection>x_snc_expense_mng_expense_claims</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 10pt;">Hi,</span></p>
+<p><span style="font-size: 10pt;">An Expense Claim <strong>"${name}"</strong> is submitted for approval. Please review the claim and take the necessary actions in the expense management module.<br /><br /></span></p>
+<table style="border-collapse: collapse; width: 74.3682%; height: 149.313px; border-color: #ced4d9; border-style: solid; margin-left: auto; margin-right: auto;" border="2" cellpadding="4px"><caption><span style="text-decoration: underline;"><strong><span style="font-size: 10pt;">Claim Details<br /><br /></span></strong></span></caption>
+<tbody>
+<tr style="height: 18.6641px;">
+<td style="width: 40.3019%; height: 18.6641px;"><span style="font-size: 10pt;">Number</span></td>
+<td style="width: 59.6996%; height: 18.6641px;"><span style="font-size: 10pt;">${number}</span></td>
+</tr>
+<tr style="height: 18.6641px;">
+<td style="width: 40.3019%; height: 18.6641px;"><span style="font-size: 10pt;">Name</span></td>
+<td style="width: 59.6996%; height: 18.6641px;"><span style="font-size: 10pt;">${name}</span></td>
+</tr>
+<tr style="height: 18.6641px;">
+<td style="width: 40.3019%; height: 18.6641px;"><span style="font-size: 10pt;">Description</span></td>
+<td style="width: 59.6996%; height: 18.6641px;"><span style="font-size: 10pt;">${description}</span></td>
+</tr>
+<tr style="height: 37.3281px;">
+<td style="width: 40.3019%; height: 37.3281px;"><span style="font-size: 10pt;">Requested For</span></td>
+<td style="width: 59.6996%; height: 37.3281px;"><span style="font-size: 10pt;">${requested_for.first_name} ${requested_for.last_name}<br /></span></td>
+</tr>
+<tr style="height: 18.6641px;">
+<td style="width: 40.3019%; height: 18.6641px;"><span style="font-size: 10pt;">Email</span></td>
+<td style="width: 59.6996%; height: 18.6641px;"><span style="font-size: 10pt;">${requested_for.email}</span></td>
+</tr>
+<tr style="height: 18.6641px;">
+<td style="width: 40.3019%; height: 18.6641px;"><span style="font-size: 10pt;">Manager</span></td>
+<td style="width: 59.6996%; height: 18.6641px;"><span style="font-size: 10pt;">${requested_for.manager.first_name}</span></td>
+</tr>
+<tr style="height: 18.6641px;">
+<td style="width: 40.3019%; height: 18.6641px;"><span style="font-size: 10pt;">Requested On</span></td>
+<td style="width: 59.6996%; height: 18.6641px;"><span style="font-size: 10pt;">${requested_on}</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><span style="font-size: 10pt;">Thanks,</span><br /><span style="font-size: 10pt;">ServiceNow Inc.</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Expense Claim Created</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Expense Managers">121be58297d66510ca6e3da71153af8b</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Expense Claim ${number} - submitted for approval</subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 21:26:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e71aa14297d66510ca6e3da71153af65</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Expense Claim Created</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sysevent_email_action_e71aa14297d66510ca6e3da71153af65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 15:28:21</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

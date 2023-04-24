@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_expense_mng_expense_groups</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Expenses Statuses On Grp Delete</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    try {
+        var expenseIds = current.expenseids.split(',');
+		var curr_sys_class = current.sys_class_name == 'x_snc_expense_mng_expense_claims' ?
+			'x_snc_expense_mng_expense' : 'x_snc_expense_mng_advance_expense';
+        var expenseGR = new GlideRecord(curr_sys_class);
+        expenseGR.addQuery('sys_id', 'IN', expenseIds);
+        expenseGR.query();
+
+        while (expenseGR.next()) {
+            expenseGR.approval_status = '';
+            expenseGR.update();
+        }
+    } catch (err) {
+        gs.error("Expenses: A runtime error occurred while updating expenses statuses on claim delete" + err);
+
+        gs.addErrorMessage("An error occurred while updating expenses statuses on claim delete");
+        current.setAbortAction(true);
+	}
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 18:07:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b6429db97966910ca6e3da71153af3e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Update Expenses Statuses On Grp Delete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_script_8b6429db97966910ca6e3da71153af3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 18:26:33</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b6429db97966910ca6e3da71153af3e"/>
+</record_update>
