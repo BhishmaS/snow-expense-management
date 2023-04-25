@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9f77493f474269109d462fe4126d43fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Advance Travel^Accommodation Booking Policy</sys_name>
         <sys_overrides/>
         <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
         <sys_update_name>sys_ui_policy_9f77493f474269109d462fe4126d43fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-13 19:02:03</sys_updated_on>
+        <sys_updated_on>2023-04-25 00:05:12</sys_updated_on>
         <table>x_snc_expense_mng_advance_expense</table>
         <ui_type>0</ui_type>
         <view/>
