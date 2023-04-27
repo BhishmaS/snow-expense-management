@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="Platform Analytics Workspace">08c73d60537101100834ddeeff7b1287</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 20:43:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>f6cb1c00476665509d462fe4126d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_ux_page_property_f6cb1c00476665509d462fe4126d432d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 20:43:46</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_expense_mng.08c73d60537101100834ddeeff7b1287.root.chrome_footer</unique_name>
+        <value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=f6cb1c00476665509d462fe4126d432d"/>
+</record_update>

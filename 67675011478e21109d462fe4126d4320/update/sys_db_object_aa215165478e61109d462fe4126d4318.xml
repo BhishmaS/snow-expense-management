@@ -22,14 +22,14 @@
         <sys_created_by>bhishma.sukhavasi@snc</sys_created_by>
         <sys_created_on>2023-04-06 20:00:07</sys_created_on>
         <sys_id>aa215165478e61109d462fe4126d4318</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Expenses</sys_name>
         <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
         <sys_policy/>
         <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
         <sys_update_name>sys_db_object_aa215165478e61109d462fe4126d4318</sys_update_name>
-        <sys_updated_by>bhishma.sukhavasi@snc</sys_updated_by>
-        <sys_updated_on>2023-04-06 21:32:44</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 00:35:13</sys_updated_on>
         <update_access>true</update_access>
         <user_role display_value="x_snc_expense_mng.expense_groups_user" name="x_snc_expense_mng.expense_groups_user">f83a0dad474e61109d462fe4126d4354</user_role>
         <ws_access>true</ws_access>

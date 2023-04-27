@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="332bceb5478ea1109d462fe4126d43f9" label="Travel Desk" max_length="40" name="x_snc_expense_mng_travel_desk" type="collection">
+    <element audit="true" db_object_id="332bceb5478ea1109d462fe4126d43f9" label="Travel Desk" max_length="40" name="x_snc_expense_mng_travel_desk" type="collection">
+        <element label="Accommodation Place" max_length="32" name="accommodation_place" reference="cmn_location" type="reference"/>
         <element label="Advance Request" max_length="32" name="advance_request" reference="x_snc_expense_mng_advance_requests" type="reference"/>
+        <element label="From Date" max_length="40" name="from_date" type="glide_date_time"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
         <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
@@ -11,14 +13,32 @@
                 <element inactive_on_update="false" label="New" value="0"/>
             </choice>
         </element>
+        <element label="To Date" max_length="40" name="to_date" type="glide_date_time"/>
+        <element label="Travel From" max_length="32" name="travel_from" reference="cmn_location" type="reference"/>
+        <element label="Travel To" max_length="32" name="travel_to" reference="cmn_location" type="reference"/>
+        <element choice="3" default="1" display="true" label="Type" max_length="40" name="type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accommodation" value="1"/>
+                <element inactive_on_update="false" label="Travel" value="0"/>
+            </choice>
+        </element>
         <index name="index">
-            <element name="advance_request"/>
+            <element name="accommodation_place"/>
         </index>
         <index name="index2">
-            <element name="requested_by"/>
+            <element name="advance_request"/>
         </index>
         <index name="index3">
+            <element name="requested_by"/>
+        </index>
+        <index name="index4">
             <element name="requested_for"/>
+        </index>
+        <index name="index5">
+            <element name="travel_from"/>
+        </index>
+        <index name="index6">
+            <element name="travel_to"/>
         </index>
     </element>
 </database>
