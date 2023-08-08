@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description>Knowledge List Open Record</description>
+        <name>Default - 3.0.0 preview. Default Knowledge List Open Record</name>
+        <parent_macroponent display_value="List">251de41b475831109d462fe4126d43e7</parent_macroponent>
+        <source_component/>
+        <source_da display_value="create_new">ba4a8dfa535b10108ce6ddeeff7b1253</source_da>
+        <source_element_id>list</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 00:09:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>631da81b475831109d462fe4126d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default - 3.0.0 preview. Default Knowledge List Open Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Knowledge Capabilities in UI Builder" source="sn_km_uib">69b1da7e45311410f87746a114805d2d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_631da81b475831109d462fe4126d4306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 00:09:36</sys_updated_on>
+        <target_event display_value="LIST#NAV_ITEM_SELECTED">8c1321d50f1310107d20409dc4767e52</target_event>
+        <target_payload_mapping>{&#13;
+            "type": "MAP_CONTAINER",&#13;
+            "container": {&#13;
+              "route": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                  "address": [&#13;
+                    "route"&#13;
+                  ]&#13;
+                }&#13;
+              },&#13;
+              "fields": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "fields"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "params": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "params"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "redirect": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "redirect"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "passiveNavigation": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "passiveNavigation"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "title": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "title"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "multiInstField": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "multiInstField"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "external": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "external"&#13;
+                    ]&#13;
+                  }&#13;
+              }&#13;
+            }&#13;
+          }</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_ux_addon_event_mapping_631da81b475831109d462fe4126d4306</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description>Knowledge List Open Record</description><name>Default - 3.0.0 preview. Default Knowledge List Open Record</name><parent_macroponent display_value="List">251de41b475831109d462fe4126d43e7</parent_macroponent><source_component/><source_da display_value="create_new">ba4a8dfa535b10108ce6ddeeff7b1253</source_da><source_element_id>list</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-02 00:09:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>631da81b475831109d462fe4126d4306</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default - 3.0.0 preview. Default Knowledge List Open Record</sys_name><sys_overrides/><sys_package display_value="Knowledge Capabilities in UI Builder" source="sn_km_uib">69b1da7e45311410f87746a114805d2d</sys_package><sys_policy/><sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope><sys_update_name>sys_ux_addon_event_mapping_631da81b475831109d462fe4126d4306</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-02 00:09:36</sys_updated_on><target_event display_value="LIST#NAV_ITEM_SELECTED">8c1321d50f1310107d20409dc4767e52</target_event><target_payload_mapping>{&#13;
+            "type": "MAP_CONTAINER",&#13;
+            "container": {&#13;
+              "route": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                  "address": [&#13;
+                    "route"&#13;
+                  ]&#13;
+                }&#13;
+              },&#13;
+              "fields": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "fields"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "params": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "params"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "redirect": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "redirect"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "passiveNavigation": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "passiveNavigation"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "title": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "title"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "multiInstField": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "multiInstField"&#13;
+                    ]&#13;
+                  }&#13;
+              },&#13;
+              "external": {&#13;
+                "type": "EVENT_PAYLOAD_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                      "external"&#13;
+                    ]&#13;
+                  }&#13;
+              }&#13;
+            }&#13;
+          }</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>619286079</payload_hash>
+        <record_name>Default - 3.0.0 preview. Default Knowledge List Open Record</record_name>
+        <reverted_from/>
+        <source>dd8cecd7475831109d462fe4126d434b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 00:09:36</sys_created_on>
+        <sys_id>ab1da81b475831109d462fe4126d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189b39420b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 00:09:36</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>ef1da81bc5583110afe01d336f42ab06</update_guid>
+        <update_guid_history>ef1da81bc5583110afe01d336f42ab06:619286079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 00:17:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>5a9b7c68ecb044ec955df8a135f17c24</sys_id>
+        <sys_metadata>631da81b475831109d462fe4126d4306</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default - 3.0.0 preview. Default Knowledge List Open Record</sys_name>
+        <sys_package display_value="Knowledge Capabilities in UI Builder" source="sn_km_uib">69b1da7e45311410f87746a114805d2d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_631da81b475831109d462fe4126d4306</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_631da81b475831109d462fe4126d4306">ab1da81b475831109d462fe4126d4307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 00:17:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

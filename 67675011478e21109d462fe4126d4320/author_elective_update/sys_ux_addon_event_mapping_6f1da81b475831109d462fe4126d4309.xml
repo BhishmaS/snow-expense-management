@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description>List New button to List page's Open Modal</description>
+        <name>Default - 3.0.0 preview. Default UXF List New</name>
+        <parent_macroponent display_value="List">251de41b475831109d462fe4126d43e7</parent_macroponent>
+        <source_component/>
+        <source_da display_value="create-new-uxf">17c13e7273131010a0a79329faf6a794</source_da>
+        <source_element_id>list</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 00:09:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f1da81b475831109d462fe4126d4309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default - 3.0.0 preview. Default UXF List New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Common Page Templates" source="sn_uib_base_aw">4d3530700f3110107d20409dc4767e42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_6f1da81b475831109d462fe4126d4309</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 00:09:36</sys_updated_on>
+        <target_event display_value="LIST#NAV_ITEM_SELECTED">8c1321d50f1310107d20409dc4767e52</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "route": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "route"
+        ]
+      }
+    },
+    "fields": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "fields"
+        ]
+      }
+    },
+    "multiInstField": "sysId",
+    "params": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "params"
+        ]
+      }
+    },
+    "redirect": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "redirect"
+        ]
+      }
+    },
+    "passiveNavigation": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "passiveNavigation"
+        ]
+      }
+    },
+    "title": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "title"
+        ]
+      }
+    },
+    "external": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "external"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Expense Management">67675011478e21109d462fe4126d4320</application>
+        <file_path/>
+        <instance_id>be318cc5db4e2dd08aea21c405961976</instance_id>
+        <instance_name>empbhishma</instance_name>
+        <name>sys_ux_addon_event_mapping_6f1da81b475831109d462fe4126d4309</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description>List New button to List page's Open Modal</description><name>Default - 3.0.0 preview. Default UXF List New</name><parent_macroponent display_value="List">251de41b475831109d462fe4126d43e7</parent_macroponent><source_component/><source_da display_value="create-new-uxf">17c13e7273131010a0a79329faf6a794</source_da><source_element_id>list</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-02 00:09:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6f1da81b475831109d462fe4126d4309</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default - 3.0.0 preview. Default UXF List New</sys_name><sys_overrides/><sys_package display_value="Common Page Templates" source="sn_uib_base_aw">4d3530700f3110107d20409dc4767e42</sys_package><sys_policy/><sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope><sys_update_name>sys_ux_addon_event_mapping_6f1da81b475831109d462fe4126d4309</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-02 00:09:36</sys_updated_on><target_event display_value="LIST#NAV_ITEM_SELECTED">8c1321d50f1310107d20409dc4767e52</target_event><target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "route": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "route"
+        ]
+      }
+    },
+    "fields": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "fields"
+        ]
+      }
+    },
+    "multiInstField": "sysId",
+    "params": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "params"
+        ]
+      }
+    },
+    "redirect": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "redirect"
+        ]
+      }
+    },
+    "passiveNavigation": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "passiveNavigation"
+        ]
+      }
+    },
+    "title": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "title"
+        ]
+      }
+    },
+    "external": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "external"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>1258913159</payload_hash>
+        <record_name>Default - 3.0.0 preview. Default UXF List New</record_name>
+        <reverted_from/>
+        <source>dd8cecd7475831109d462fe4126d434b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 00:09:36</sys_created_on>
+        <sys_id>271da81b475831109d462fe4126d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189b39420ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 00:09:36</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>6b1da81bd4583110cc040b1d3118460a</update_guid>
+        <update_guid_history>6b1da81bd4583110cc040b1d3118460a:1258913159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 00:17:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>79ab1a0141bd4fc09104d10053b70100</sys_id>
+        <sys_metadata>6f1da81b475831109d462fe4126d4309</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default - 3.0.0 preview. Default UXF List New</sys_name>
+        <sys_package display_value="Common Page Templates" source="sn_uib_base_aw">4d3530700f3110107d20409dc4767e42</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_scope_delete display_value="">589ea5f23c134ca48a207b39439cdb90</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_6f1da81b475831109d462fe4126d4309</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_6f1da81b475831109d462fe4126d4309">271da81b475831109d462fe4126d430b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 00:17:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="List">082ba857475831109d462fe4126d433e</macroponent>
+        <name>Refresh List</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+      api,
+      event: {
+          payload,
+          payload: {
+              name,
+              value,
+              previousValue
+          }
+      },
+      helpers,
+      imports
+    }) {
+      if (name === 'screen' &&
+          value.isActive != previousValue.isActive
+          && value.isActive
+          && api.state.hasRecordChanges) {
+          api.setState('hasRecordChanges', false);
+          api.setState('listRefresh', { timestamp: Date.now(), background: true });
+      }
+      if (name === 'activityLogs' && value && value.size > 0) {
+        const operationList = ['modified', 'updated', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];
+        const crudActivitiesLen = map.activities.get('crud').length;
+        if (crudActivitiesLen < 1)
+            return;
+        const {
+            operation,
+            sysId,
+            timestamp
+        } = map.activities.get('crud')[crudActivitiesLen - 1];
+        if (operationList.includes(operation) &&
+            sysId !== "-1" &&
+            !api.context.props.screen.isActive &&
+            !api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', true);
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-02 00:00:57</sys_created_on>
+        <sys_id>ec2b6497475831109d462fe4126d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="Expense Management" source="x_snc_expense_mng">67675011478e21109d462fe4126d4320</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">67675011478e21109d462fe4126d4320</sys_scope>
+        <sys_update_name>sys_ux_client_script_ec2b6497475831109d462fe4126d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-02 00:00:57</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
